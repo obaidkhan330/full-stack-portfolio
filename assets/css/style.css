@@ -106,6 +106,9 @@ ul {
 .nav_testimonial_icon_hover { color: #ff4a4a; }
 .nav_contact_icon { color: #0e0f21; }
 .nav_contact_icon_hover { color: #ff4a4a; }
+.social_list li a:hover .nav_youtube {
+    color: #FF0000;
+}
 /* Banner background carousel fix */
 .port_bannerbg_wrapper {
     position: relative;
