@@ -75,6 +75,37 @@ ul {
     Loader Style
  *******************************************************/
 
+
+
+
+ /* Sidebar Font Awesome icons */
+.port_navigation .nav_list li a i {
+    font-size: 24px;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+
+/* Default icon color (dark) */
+.first_micon i {
+    color: #0e0f21;
+}
+
+/* Hover icon color (red) - hidden initially */
+.second_micon i {
+    color: #ff4a4a;
+}
+
+/* Override specific colors if needed */
+.nav_about_icon { color: #0e0f21; }
+.nav_about_icon_hover { color: #ff4a4a; }
+.nav_portfolio_icon { color: #0e0f21; }
+.nav_portfolio_icon_hover { color: #ff4a4a; }
+.nav_testimonial_icon { color: #0e0f21; }
+.nav_testimonial_icon_hover { color: #ff4a4a; }
+.nav_contact_icon { color: #0e0f21; }
+.nav_contact_icon_hover { color: #ff4a4a; }
 /* Banner background carousel fix */
 .port_bannerbg_wrapper {
     position: relative;
